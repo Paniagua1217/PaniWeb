@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pani Web</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+<div class="stars" id="stars"></div>
+ 
+<div class="wrap">
+ 
+  <div class="title-row">
+    <span class="spark">✦</span>
+    <h1 class="page-title">Página personal</h1>
+    <span class="spark">✦</span>
+  </div>
+ 
+  <div class="wip-marquee">
+    <span>bienvenido a mi rincón &nbsp;·&nbsp; equipo de esports FACPYA &nbsp;·&nbsp; bicampeón individual &nbsp;·&nbsp; campeón en parejas &nbsp;·&nbsp; gracias por pasarte &nbsp;·&nbsp;</span>
+  </div>
+ 
+  <div class="cdplayer">
+    <button class="cd-btn" id="playBtn" aria-label="Reproducir">▶</button>
+    <div class="disc" id="disc"></div>
+    <div class="cd-body">
+      <div class="cd-track-name" id="trackName">1.mp3</div>
+      <div class="cd-progress" id="progressTrack">
+        <div class="cd-progress-fill" id="progressFill"></div>
+      </div>
+      <div class="cd-times">
+        <span id="curTime">00:00</span>
+        <span id="durTime">0:00</span>
+      </div>
+    </div>
+  </div>
+  <p class="cd-note">esta música es para darle ambiente a la página y porque me gusta</p>
+ 
+  <hr class="divider">
+ 
+  <div class="photo-block">
+    <div class="photo-frame">
+      <img src="img.png" alt="Foto de Norberto">
+    </div>
+    <div class="photo-caption">Norberto</div>
+  </div>
+ 
+  <div class="badge-row" style="justify-content:center;">
+    <span class="badge">🏆 bicampeón individual</span>
+    <span class="badge">🥇 campeón actual parejas</span>
+    <span class="badge">🎮 clash royale semi-pro</span>
+  </div>
+ 
+  <hr class="divider">
+ 
+  <h2>¿Quién es Norberto?</h2>
+  <div class="bio">
+    <p>Soy <strong>Norberto Ángel</strong>, tengo 18 años (nací el 17 de diciembre de 2007) y estudio la Licenciatura en Tecnologías de la Información en la <strong>UANL</strong>. Soy trillizo y tengo dos hermanas, una estudia en FOD y FACMED, y la otra en FACDYC y FAMUS.</p>
+    <p>Desde chico me ha gustado competir y superarme, jugar videojuegos y aprender cosas nuevas. Juego <strong>Clash Royale</strong> de manera semiprofesional, representando a FACPYA en distintos torneos y competencias he conseguido varios podios y conocido a mucha gente en el camino. Desde la prepa llevo compitiendo en los torneos intrauniversitarios: soy bicampeón individual y campeón actual en parejas.</p>
+    <p>Mi meta es seguir creciendo académica y personalmente, aprender de mis errores y demostrarme que con esfuerzo y perseverancia puedo alcanzar lo que me proponga.</p>
+  </div>
+ 
+  <hr class="divider">
+ 
+  <h2>Mis intereses</h2>
+<ul class="taglist">
+  <li>Fútbol</li>
+  <li>Fútbol americano</li>
+  <li>Voleibol</li>
+  <li>Música</li>
+  <li>Leer</li>
+  <li>Desarrollo web</li>
+  <li>Meditar</li>
+  <li>Salir solo</li>
+</ul>
+ 
+  <h2 style="margin-top:28px;">Mis juegos favoritos</h2>
+<ul class="games-list">
+  <li>Geometry Dash</li>
+  <li>Fortnite</li>
+  <li>Clash Royale</li>
+  <li>Rocket League</li>
+</ul>
+ 
+  <hr class="divider">
+ 
+  <h2 style="text-align:center;">Contáctame</h2>
+  <div class="socials">
+    <a class="social-btn" href="tel:+528126017604">
+      <span class="chrome-icon">📱</span>
+      <span class="social-label">81 2601 7604</span>
+    </a>
+    <a class="social-btn" href="https://instagram.com/pani._.awa" target="_blank" rel="noopener">
+      <span class="chrome-icon">📷</span>
+      <span class="social-label">pani._.awa</span>
+    </a>
+    <a class="social-btn" href="mailto:rayados18383@gmail.com">
+      <span class="chrome-icon">✉️</span>
+      <span class="social-label">rayados18383</span>
+    </a>
+  </div>
+ 
+</div>
+ 
+<audio id="audioEl" src="audio/1.mp3" preload="metadata"></audio>
+ 
+<script src="script.js"></script>
+</body>
+</html>
